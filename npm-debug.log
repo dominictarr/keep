@@ -1,0 +1,141 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/home/dominic/.nave/installed/0.6.10/bin/npm',
+verbose cli   'publish' ]
+info using npm@1.1.0-3
+info using node@v0.6.10
+verbose config file /home/dominic/.npmrc
+verbose config file /home/dominic/.nave/installed/0.6.10/etc/npmrc
+verbose config file /home/dominic/.nave/installed/0.6.10/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+verbose caching /home/dominic/d/keep/package.json
+verbose loadDefaults keep@0.0.0
+info prepublish keep@0.0.0
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', path: '.', href: '.' }
+verbose caching package.json
+verbose loadDefaults keep@0.0.0
+verbose pack /home/dominic/d/keep
+verbose pack /home/dominic/d/keep /tmp/npm-1329281599141/1329281599141-0.5459237943869084/tmp.tgz
+silly makeList /home/dominic/d/keep
+silly dir, dirLen [ '/home/dominic/d/keep', 21 ]
+verbose tarball /tmp/npm-1329281599141/1329281599141-0.5459237943869084/tmp.tgz
+verbose parent /home/dominic/d/keep
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm'
+verbose mkdir done: /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1329281599141/1329281599141-0.5459237943869084/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep/package.json
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep/queue.js
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep/.npmignore
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep/readme.markdown
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep/index.js
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep/test
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep/test/queue-test.js
+silly asyncMap in gTP /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep/test/mixin-test.js
+silly chmod keep 755
+silly chmod package.json 644
+silly chmod queue.js 644
+silly chmod .npmignore 644
+silly chmod readme.markdown 644
+silly chmod index.js 644
+silly chmod test 755
+silly chmod queue-test.js 644
+silly chmod mixin-test.js 644
+verbose gunzed /tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep
+verbose rm'ed /tmp/npm-1329281599141/1329281599141-0.5459237943869084/package
+verbose renamed [ '/tmp/npm-1329281599141/1329281599141-0.5459237943869084/___package.npm/keep',
+verbose renamed   '/tmp/npm-1329281599141/1329281599141-0.5459237943869084/package' ]
+verbose caching /tmp/npm-1329281599141/1329281599141-0.5459237943869084/package/package.json
+verbose loadDefaults keep@0.0.0
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1329281599141/1329281599141-0.5459237943869084/package/package.json
+verbose pack /tmp/npm-1329281599141/1329281599141-0.5459237943869084/package
+verbose pack /tmp/npm-1329281599141/1329281599141-0.5459237943869084/package /home/dominic/.npm/keep/0.0.0/package.tgz
+silly makeList /tmp/npm-1329281599141/1329281599141-0.5459237943869084/package
+silly dir, dirLen [ '/tmp/npm-1329281599141/1329281599141-0.5459237943869084/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/dominic/.npm/keep/0.0.0/package.tgz
+verbose parent /tmp/npm-1329281599141/1329281599141-0.5459237943869084/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/dominic/.npm/keep/0.0.0/___package.npm'
+verbose mkdir done: /home/dominic/.npm/keep/0.0.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/dominic/.npm/keep/0.0.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package/package.json
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package/queue.js
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package/readme.markdown
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package/index.js
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package/test
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package/test/queue-test.js
+silly asyncMap in gTP /home/dominic/.npm/keep/0.0.0/___package.npm/package/test/mixin-test.js
+silly chmod package 755
+silly chmod test 755
+verbose gunzed /home/dominic/.npm/keep/0.0.0/___package.npm/package
+verbose rm'ed /home/dominic/.npm/keep/0.0.0/package
+verbose renamed [ '/home/dominic/.npm/keep/0.0.0/___package.npm/package',
+verbose renamed   '/home/dominic/.npm/keep/0.0.0/package' ]
+verbose caching /home/dominic/.npm/keep/0.0.0/package/package.json
+verbose loadDefaults keep@0.0.0
+silly updated sha bytes 2196
+info shasum 0ab0aa5bab2ddfc69bd088f89f752b947fa76d48
+info shasum /home/dominic/.npm/keep/0.0.0/package.tgz
+verbose from cache /home/dominic/.npm/keep/0.0.0/package/package.json
+verbose chmod /home/dominic/.npm/keep/0.0.0/package.tgz 644
+verbose chown [ '/home/dominic/.npm/keep/0.0.0/package.tgz', 1000, 1000 ]
+silly publish { author: 
+silly publish    { name: 'Dominic Tarr',
+silly publish      email: 'dominic.tarr@gmail.com',
+silly publish      url: 'dominictarr.com' },
+silly publish   name: 'keep',
+silly publish   description: 'in memory data with append only persistance',
+silly publish   version: '0.0.0',
+silly publish   homepage: 'github.com/dominictarr/keep',
+silly publish   repository: { url: '' },
+silly publish   scripts: { test: 'tap test/*' },
+silly publish   engines: { node: '*' },
+silly publish   dependencies: {},
+silly publish   devDependencies: {},
+silly publish   optionalDependencies: {},
+silly publish   _npmUser: { name: 'dominictarr', email: 'dominic.tarr@gmail.com' },
+silly publish   _id: 'keep@0.0.0',
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.0-3',
+silly publish   _nodeVersion: 'v0.6.10',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '0ab0aa5bab2ddfc69bd088f89f752b947fa76d48',
+silly publish      tarball: 'http://registry.npmjs.org/keep/-/keep-0.0.0.tgz' } }
+verbose raw, before any munging keep
+verbose url resolving [ 'https://registry.npmjs.org/', './keep' ]
+verbose url resolved https://registry.npmjs.org/keep
+http PUT https://registry.npmjs.org/keep
+http 409 https://registry.npmjs.org/keep
+verbose raw, before any munging keep
+verbose url resolving [ 'https://registry.npmjs.org/', './keep' ]
+verbose url resolved https://registry.npmjs.org/keep
+http GET https://registry.npmjs.org/keep
+http 200 https://registry.npmjs.org/keep
+info Already published keep@0.0.0
+verbose uploading bin dists []
+ERR! publish fail Cannot publish over existing version.
+ERR! publish fail Bump the 'version' field, set the --force flag, or
+ERR! publish fail     npm unpublish 'keep@0.0.0'
+ERR! publish fail and try again
+ERR! 
+ERR! System Linux 3.0.0-15-generic
+ERR! command "node" "/home/dominic/.nave/installed/0.6.10/bin/npm" "publish"
+ERR! cwd /home/dominic/d/keep
+ERR! node -v v0.6.10
+ERR! npm -v 1.1.0-3
+ERR! code EPUBLISHCONFLICT
+ERR! message publish fail
+ERR! errno {}
+verbose exit [ 1, true ]

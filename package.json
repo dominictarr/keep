@@ -2,10 +2,10 @@
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
   "name": "keep",
   "description": "in memory data with append only persistance",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "github.com/dominictarr/keep",
   "repository": {
-    "url": ""
+    "url": "git:github.com/dominictarr/keep.git"
   },
   "scripts": {
     "test": "tap test/*"
@@ -13,7 +13,11 @@
   "engines": {
     "node": "*"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "ubelt": "3.1"
+  },
+  "devDependencies": {
+    "tap":"0.2"
+  },
   "optionalDependencies": {}
 }
